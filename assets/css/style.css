@@ -1,0 +1,43 @@
+#headP {
+    font-size: small;
+}
+#myZoom{
+    max-width: 100px;
+    max-height: 200px;
+    position:relative;
+    bottom: 20px;
+    right:25px;
+}
+#myBackground {
+    background-color: rgb(232, 232, 173);
+}
+#projects{
+    background-color:rgb(215, 231, 247);
+    margin-bottom: 1em;
+}
+#skills{
+    background-color: chocolate;
+    /* padding-bottom: 1%; */
+}
+#contact {
+    background-color: lightgoldenrodyellow;
+}
+body {
+    background-color: rgb(163, 158, 197);
+    margin: 2% 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Large smartphones */
+@media screen and (max-width: 768px) {
+    body {
+    margin:3%;
+    }
+    #headP{
+        font-size: 12px;
+    }
+    #myZoom{
+        max-width: 60px;
+        bottom: 10px;
+    }  
+}
+
