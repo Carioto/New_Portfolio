@@ -2,14 +2,15 @@
     font-size: small;
 }
 .navbar{
-    margin-left: 3%;
+    margin: auto;
+    padding-left: 20%;
+
 }
 #myZoom{
     max-width: 100px;
     max-height: 200px;
     position:relative;
     bottom: 20px;
-    /* right:25px; */
 }
 #myBackground {
     background-color: rgb(232, 232, 173);
